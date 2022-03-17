@@ -2,8 +2,12 @@ package com.harman.b4;
 
 public class Calculator {
     public static void main(String[] args) {
-        int x = 5, y=6, z;
+        substraction subc=new substraction();
+        int x = 7, y=4, z;
         z=x+y;
         System.out.println(z);
+        int result = subc.sub(x,y);
+        System.out.println(result);
+
     }
 }
